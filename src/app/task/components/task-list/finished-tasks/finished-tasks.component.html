@@ -1,0 +1,286 @@
+<div class="c-table c-table--responsive">
+  <table>
+    <thead>
+      <tr>
+        <th scope="col" style="width: 1%"></th>
+        <th scope="col" style="width: 1%"></th>
+        <th scope="col">
+          <div class="u-d-fx u-fx-nowrap u-align-items-center">
+            <span>Name</span>
+            <button type="button" class="c-button c-button--subtle c-button--small c-button--icon-only u-ml-1">
+              <span class="c-button__text">Filter by name</span>
+              <span class="c-button__icon">
+                <i class="o-icon">
+                  <svg class="o-icon__svg">
+                    <use xlink:href="admin-icons.svg#admin-filter"></use>
+                  </svg>
+                </i>
+              </span>
+            </button>
+          </div>
+        </th>
+        <th scope="col" class="u-ta-c">
+          <div class="u-d-ifx u-fx-nowrap u-align-items-center">
+            <span>Status</span>
+            <button type="button" class="c-button c-button--subtle c-button--small c-button--icon-only u-ml-1">
+              <span class="c-button__text">Filter by status</span>
+              <span class="c-button__icon">
+                <i class="o-icon">
+                  <svg class="o-icon__svg">
+                    <use xlink:href="admin-icons.svg#admin-filter"></use>
+                  </svg>
+                </i>
+              </span>
+            </button>
+          </div>
+        </th>
+        <th scope="col" class="u-ta-c" style="width: 1%">
+          <div class="u-d-ifx u-fx-nowrap u-align-items-center">
+            <span>Type</span>
+            <button type="button" class="c-button c-button--subtle c-button--small c-button--icon-only u-ml-1">
+              <span class="c-button__text">Filter by type</span>
+              <span class="c-button__icon">
+                <i class="o-icon">
+                  <svg class="o-icon__svg">
+                    <use xlink:href="admin-icons.svg#admin-filter"></use>
+                  </svg>
+                </i>
+              </span>
+            </button>
+          </div>
+        </th>
+        <th scope="col" class="u-ta-c" style="width: 1%">
+          <div class="u-d-ifx u-fx-nowrap u-align-items-center">
+            <span>Size</span>
+            <button type="button" class="c-button c-button--subtle c-button--small c-button--icon-only u-ml-1">
+              <span class="c-button__text">Filter by size</span>
+              <span class="c-button__icon">
+                <i class="o-icon">
+                  <svg class="o-icon__svg">
+                    <use xlink:href="admin-icons.svg#admin-filter"></use>
+                  </svg>
+                </i>
+              </span>
+            </button>
+          </div>
+        </th>
+        <th scope="col" class="u-ta-c">Progress</th>
+        <th scope="col" class="u-ta-c" style="width: 1%">
+          <span>Details</span>
+        </th>
+        <th scope="col" style="width: 1%"></th>
+        <th scope="col" style="width: 1%">Translations</th>
+        <th scope="col" class="u-ta-r" style="width: 1%">
+          <button
+            type="button"
+            class="c-button c-button--subtle c-button--small c-button--icon-only"
+            aria-expanded="true"
+            aria-controls="table-body"
+          >
+            <span class="c-button__text">Toggle</span>
+            <span class="c-button__icon">
+              <i class="o-icon">
+                <svg class="o-icon__svg">
+                  <use xlink:href="icons.svg#arrow-down"></use>
+                </svg>
+              </i>
+            </span>
+          </button>
+        </th>
+      </tr>
+    </thead>
+    <tbody id="table-body">
+      <tr class="  " *ngFor="let item of [1, 2, 2, 2]">
+        <td>
+          <div class="u-d-fx u-fx-nowrap u-align-items-center">
+            <div class="c-button-group c-button-group--small">
+              <button type="button" class="c-button c-button--subtle c-button--icon-only">
+                <span class="c-button__text">Expand</span>
+                <span class="c-button__icon">
+                  <i class="o-icon">
+                    <svg class="o-icon__svg">
+                      <use xlink:href="icons.svg#structure"></use>
+                    </svg>
+                  </i>
+                </span>
+              </button>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="o-ratio u-w-f32 u-br-2">
+            <img class="u-of-cover" src="https://picsum.photos/64/64?random=1364" alt="20160220_Norway 2053 Edit" />
+          </div>
+        </td>
+        <td>
+          <div>20160220_Norway 2053 Edit</div>
+          <div class="u-mat-p-small u-mb-0 u-grey-5 u-mt-1">45123123 456465546</div>
+        </td>
+        <td class="u-ta-c">
+          <span class="c-badge u-white u-bg-success c-badge--dot c-badge--center">
+            <span class="c-badge__hoverable">
+              <span class="c-badge__icon">
+                <i class="o-icon">
+                  <svg class="o-icon__svg">
+                    <use xlink:href="icons.svg#check"></use>
+                  </svg>
+                </i>
+              </span>
+              <span class="c-badge__text">Active</span>
+            </span>
+          </span>
+        </td>
+        <td class="u-ta-c">jpg</td>
+        <td class="u-ta-c">654.0 MB</td>
+        <td class="u-ta-c">
+          <div class="u-d-ifx u-align-items-center">
+            <div class="c-progress u-w-f48">
+              <div
+                class="c-progress__bar"
+                role="progressbar"
+                style="width: 50%"
+                aria-valuenow="50"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <div class="u-mat-p-small u-mb-0 u-ml-4">200 kb /s</div>
+          </div>
+        </td>
+        <td class="u-ta-c">
+          <i class="o-icon u-error">
+            <svg class="o-icon__svg">
+              <use xlink:href="icons.svg#cross"></use>
+            </svg>
+          </i>
+        </td>
+        <td>
+          <div class="c-button-group c-button-group--small">
+            <button type="button" class="c-button c-button--subtle c-button--icon-only">
+              <span class="c-button__text">Edit</span>
+              <span class="c-button__icon">
+                <i class="o-icon">
+                  <svg class="o-icon__svg">
+                    <use xlink:href="admin-icons.svg#admin-cog"></use>
+                  </svg>
+                </i>
+              </span>
+            </button>
+            <button type="button" class="c-button c-button--subtle c-button--icon-only">
+              <span class="c-button__text">Delete</span>
+              <span class="c-button__icon">
+                <i class="o-icon">
+                  <svg class="o-icon__svg">
+                    <use xlink:href="icons.svg#remove"></use>
+                  </svg>
+                </i>
+              </span>
+            </button>
+            <button type="button" class="c-button c-button--subtle c-button--icon-only">
+              <span class="c-button__text">More</span>
+              <span class="c-button__icon">
+                <i class="o-icon">
+                  <svg class="o-icon__svg">
+                    <use xlink:href="icons.svg#more"></use>
+                  </svg>
+                </i>
+              </span>
+            </button>
+          </div>
+        </td>
+        <td colspan="2">
+          <div class="c-button-group">
+            <button
+              type="button"
+              class="c-button c-button--ghost c-button--icon-only c-button--spaceless u-fs-5 u-op-25"
+            >
+              <span class="c-button__text">NO</span>
+              <span class="c-button__icon">
+                <i class="o-icon">
+                  <svg class="o-icon__svg">
+                    <use xlink:href="icons.svg#flag-no"></use>
+                  </svg>
+                </i>
+              </span>
+            </button>
+            <button type="button" class="c-button c-button--ghost c-button--icon-only c-button--spaceless u-fs-5">
+              <span class="c-button__text">EN</span>
+              <span class="c-button__icon">
+                <i class="o-icon">
+                  <svg class="o-icon__svg">
+                    <use xlink:href="icons.svg#flag-us"></use>
+                  </svg>
+                </i>
+              </span>
+            </button>
+            <button
+              type="button"
+              class="c-button c-button--ghost c-button--icon-only c-button--spaceless u-fs-5 u-op-25"
+            >
+              <span class="c-button__text">EN</span>
+              <span class="c-button__icon">
+                <i class="o-icon">
+                  <svg class="o-icon__svg">
+                    <use xlink:href="icons.svg#flag-de"></use>
+                  </svg>
+                </i>
+              </span>
+            </button>
+            <button
+              type="button"
+              class="c-button c-button--ghost c-button--icon-only c-button--spaceless u-fs-5 u-op-25"
+            >
+              <span class="c-button__text">ES</span>
+              <span class="c-button__icon">
+                <i class="o-icon">
+                  <svg class="o-icon__svg">
+                    <use xlink:href="icons.svg#flag-es"></use>
+                  </svg>
+                </i>
+              </span>
+            </button>
+            <button
+              type="button"
+              class="c-button c-button--ghost c-button--icon-only c-button--spaceless u-fs-5 u-op-25"
+            >
+              <span class="c-button__text">FR</span>
+              <span class="c-button__icon">
+                <i class="o-icon">
+                  <svg class="o-icon__svg">
+                    <use xlink:href="icons.svg#flag-fr"></use>
+                  </svg>
+                </i>
+              </span>
+            </button>
+            <button
+              type="button"
+              class="c-button c-button--ghost c-button--icon-only c-button--spaceless u-fs-5 u-op-25"
+            >
+              <span class="c-button__text">SE</span>
+              <span class="c-button__icon">
+                <i class="o-icon">
+                  <svg class="o-icon__svg">
+                    <use xlink:href="icons.svg#flag-se"></use>
+                  </svg>
+                </i>
+              </span>
+            </button>
+            <button
+              type="button"
+              class="c-button c-button--ghost c-button--icon-only c-button--spaceless u-fs-5 u-op-25"
+            >
+              <span class="c-button__text">CS</span>
+              <span class="c-button__icon">
+                <i class="o-icon">
+                  <svg class="o-icon__svg">
+                    <use xlink:href="icons.svg#flag-cs"></use>
+                  </svg>
+                </i>
+              </span>
+            </button>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

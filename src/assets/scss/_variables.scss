@@ -1,0 +1,12 @@
+@use '~@bm-ui/core/scss/core/skin/default' as skin;
+
+$header-height: 50px;
+
+$sidebar-primary-background: #f1f4f8;
+$sidebar-secondary-background: #ffffff;
+
+$layout-spacing-x: skin.$spacer-6;
+$layout-spacing-x-lg: skin.$spacer-8;
+$layout-spacing-y: skin.$spacer-7;
+$layout-spacing-y-lg: skin.$spacer-8;
+$layout-header-height: skin.$global-form-control-small-height;

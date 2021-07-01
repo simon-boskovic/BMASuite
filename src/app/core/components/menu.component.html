@@ -1,0 +1,22 @@
+<div class="c-tabs u-pl-5 u-pr-5">
+  <ul class="c-tabs__list u-mb-0">
+    <li class="c-tabs__item">
+      <button type="button" id="tab-1" class="c-tabs__link" disabled>BMASuite 3.0</button>
+    </li>
+    <li class="c-tabs__item" [routerLinkActive]="['is-active']">
+      <button type="button" id="tab-2" class="c-tabs__link" [routerLink]="['task']" [routerLinkActive]="['u-pe-auto']">
+        <span class="c-tabs__label">Tasks</span>
+      </button>
+    </li>
+    <div class="u-ml-auto" style="display: flex">
+      <li class="c-tabs__item">
+        <button type="button" id="tab-4" class="c-tabs__link"></button>
+      </li>
+      <li class="c-tabs__item">
+        <button type="button" id="tab-4" class="c-tabs__link" (click)="logout()">
+          <span class="c-tabs__label">Logout</span>
+        </button>
+      </li>
+    </div>
+  </ul>
+</div>

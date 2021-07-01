@@ -1,0 +1,45 @@
+@use '../assets/scss/variables' as *;
+
+// @import '~@angular/cdk/overlay-prebuilt.css';
+
+@import '~@bm-ui/fonts/css/default/bundle.css';
+@import '~@bm-ui/core/scss/core/theme';
+@import '~@bm-ui/core/scss/generic';
+@import '~@bm-ui/core/scss/elements';
+@import '~@bm-ui/core/scss/layout';
+@import '~@bm-ui/core/scss/objects';
+@import '~@bm-ui/core/scss/components';
+@import '~@bm-ui/core/scss/utilities';
+@import '~@bm-ui/core/scss/components/forms';
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f9fafb;
+}
+
+*:focus {
+  outline: none;
+}
+
+.c-accordion__item:focus {
+  outline: none;
+}
+.c-accordion__toggle:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.u-tctc-lsx {
+  padding-right: $layout-spacing-x !important;
+  padding-left: $layout-spacing-x !important;
+}
+
+.u-tctc-lsy {
+  padding-top: $layout-spacing-y !important;
+  padding-bottom: $layout-spacing-y !important;
+}
+
+.u-tctc-ls-half {
+  padding-left: $layout-spacing-x !important;
+}

@@ -1,0 +1,15 @@
+<h1>BMASuite 3.0</h1>
+
+<label for="email" class="c-form-label">Email</label>
+<div class="c-form-control">
+  <input id="email" type="text" [(ngModel)]="credentials.email" />
+</div>
+
+<label for="password" class="c-form-label">Password</label>
+<div class="c-form-control">
+  <input id="password" type="password" [(ngModel)]="credentials.password" />
+</div>
+
+<button (click)="login()" type="button" class="c-button c-button--primary">
+  <span class="c-button__text">Login</span>
+</button>
